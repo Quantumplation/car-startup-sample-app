@@ -1,0 +1,77 @@
+﻿
+.incident-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.incident-details {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.incident-details hr {
+    width: 100%;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.second-row {
+    margin-top: 10px;
+}
+
+.car-model {
+    font-weight: bold;
+    flex-basis: 60%;
+}
+
+.incident-description {
+    padding: 3px;
+    font-style: italic;
+    width: 80%
+}
+
+div.incident-status {
+    flex-basis: 33%;
+}
+
+div.status-new {
+    background-color: #2980b9;
+}
+
+div.status-canceled {
+    background-color: #7f8c8d;
+}
+
+div.status-claimed {
+    background-color: #27ae60;
+}
+
+div.status-finished {
+    background-color: #34495e;
+}
+
+.shop-info {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ecf0f1;
+    border-radius: 2px;
+}
+.shop-info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.shop-name, .shop-phone {
+    background-color: #ecf0f1;
+}
+.incident-panel {
+    width: 100%;
+}

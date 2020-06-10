@@ -1,0 +1,11 @@
+﻿div.incident-list-container {
+    height: 100%;
+    width: calc(100% - 20px);
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: 10px 0;
+    overflow-y: scroll;
+}
+.incident-list-wrapper {
+    margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+﻿div.incident-list-container {
+    height: 100%;
+    width: calc(100% - 20px);
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: 10px 0;
+    overflow-y: scroll;
+    border-radius: 6px !important;
+}
+.incident-list-wrapper {
+    margin-top: 10px;
+}
+
+.incident-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.incident-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+.car-model {
+    font-weight: bold;
+    flex-basis: 60%;
+}
+.incident-description {
+    padding: 3px;
+    font-style: italic;
+    width: 80%
+}
+div.incident-status {
+    flex-basis: 33%;
+}
+div.status-new {
+    background-color: #2980b9;
+}
+div.status-canceled {
+    background-color: #7f8c8d;
+}
+div.status-accepted {
+    background-color: #27ae60;
+}
+div.status-finished {
+    background-color: #34495e;
+}
+
+.incident-list-wrapper:first-child {
+    border-radius: 6px !important;
+}

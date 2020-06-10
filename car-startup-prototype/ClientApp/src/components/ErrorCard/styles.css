@@ -1,0 +1,18 @@
+﻿div.error-card {
+    height: 100%;
+    width: calc(100% - 20px);
+    background-color: #ecf0f1;
+    margin: 10px 0;
+    overflow-y: scroll;
+    border-radius: 6px !important;
+}
+
+.error-card .error-card-body {
+    margin: 15px;
+}
+
+.error-card .error-card-actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
